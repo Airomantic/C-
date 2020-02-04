@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/CLion/Project/Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/CLion/Project/Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="E:/CLion/Project/Test/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLion/Project/Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="E:/CLion/Project/Test/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLion/Project/Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/CLion/Project/Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/CLion/Project/Test/main.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_1.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_1.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_2.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_2.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_3.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_3.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_4.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_4.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_parameter_pointer.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_parameter_pointer.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_parameter_pointer_integer.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_parameter_pointer_integer.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_parameter_void.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/test_parameter_void.h">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
